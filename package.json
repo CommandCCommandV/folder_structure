@@ -1,0 +1,29 @@
+{
+  "name": "folder_structure",
+  "version": "1.0.0",
+  "description": "to teach folder structure",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ankitsyadav/folder_structure.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ankitsyadav/folder_structure/issues"
+  },
+  "homepage": "https://github.com/ankitsyadav/folder_structure#readme",
+  "devDependencies": {
+    "prisma": "^6.18.0"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.18.0",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  }
+}
